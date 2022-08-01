@@ -11,7 +11,7 @@ int main(void) {
     scanf("%s", word1);
     printf("And another: ");
     scanf("%s", word2);
-    // Firnd first letter in which words differ
+    // Find first letter in which words differ
     while (word1[i]!='\0' && word2[i]!= '\0' && word1[i] == word2[i])
     i++;
     if (word1[i] < word2[i])
